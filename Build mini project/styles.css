@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-nav{
+nav {
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -15,7 +16,7 @@ nav{
     background-color: #cafdff;
 }
 
-header{
+header {
     background-color: #eadcff;
     height: 100vh;
     padding: 24px;
@@ -24,16 +25,16 @@ header{
     justify-content: center;
 }
 
-h1{
+h1 {
     font-size: 72px;
 }
 
-.subheader{
+.subheader {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-button{
+button {
     background-color: #05c7cf;
     color: white;
     border: none;
@@ -42,27 +43,27 @@ button{
     cursor: pointer;
 }
 
-a{
+a {
     color: black;
     font-size: 24px;
     font-weight: 700;
 
 }
 
-.logo{
+.logo {
     width: 300px;
 }
 
-ul{
+ul {
     display: flex;
 }
 
-li{
+li {
     list-style: none;
-    padding-left: 16px ;
+    padding-left: 16px;
 }
 
-.row{
+.row {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -70,9 +71,10 @@ li{
     align-items: center;
     justify-content: center;
 }
+
 /* ABOUT SECTION */
 
-h2{
+h2 {
     font-size: 60px;
     text-align: center;
     margin-bottom: 24px;
@@ -84,20 +86,21 @@ h2{
     align-items: center;
 }
 
-.about__img--wrapper{
+.about__img--wrapper {
     width: 40%;
 }
 
 img {
     width: 100%;
 }
+
 .about__img--wrapper,
-.section__description--wrapper{
+.section__description--wrapper {
     width: 40%;
     padding: 0 24px;
 }
 
-.section__description--para{
+.section__description--para {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
@@ -112,25 +115,27 @@ img {
 
 /* DISCORD */
 
-#discord{
+#discord {
     background-color: #cefeff;
 }
 
 /* CONTACT */
 
-#contact{
+#contact {
     background-color: #dce9ff;
 }
 
-form{
+form {
     width: 100%;
     max-width: 600px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
-input, textarea{
+input,
+textarea {
     margin-bottom: 24px;
     font-size: 20px;
     padding: 6px 12px;
@@ -138,7 +143,7 @@ input, textarea{
 
 /* FOOTER */
 
-footer{
+footer {
     background-color: #aaf5ff;
     display: flex;
     flex-direction: column;
@@ -150,30 +155,30 @@ footer{
     margin-bottom: 16px;
 }
 
-.footer_links{
+.footer_links {
     margin-bottom: 32px;
 }
 
-footer_link{
+footer_link {
     padding: 0 16px;
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
-@media (max-width: 728px){
-    .row{
+@media (max-width: 728px) {
+    .row {
         flex-direction: column;
     }
 
-    .home__description{
+    .home__description {
         margin-bottom: 24px;
     }
 
-    h1{
+    h1 {
         text-align: center;
         font-size: 60px;
     }
 
-    .subheader{
+    .subheader {
         text-align: center;
         font-size: 28px;
     }
